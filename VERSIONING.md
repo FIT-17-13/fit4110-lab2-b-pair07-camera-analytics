@@ -4,7 +4,7 @@ Applies to `openapi.yaml` and the event contract for Pair 07.
 
 ## Current Version
 
-- v1.0.0 (TBD date)
+- v1.0.0 (19 tháng 5, 2026)
 
 ## Semantic Versioning
 

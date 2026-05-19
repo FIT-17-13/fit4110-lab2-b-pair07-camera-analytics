@@ -51,7 +51,7 @@ Ghi rõ những điểm user story chưa nói nhưng Provider cần giả địn
 
 - Chỉ gửi `imageRef` (không gửi ảnh thật) để tránh payload lớn.
 - `eventId` là duy nhất; consumer xử lý idempotent.
-- `offlineSince` sinh khi không có heartbeat trong khoảng thời gian TBD.
+- `offlineSince` sinh khi không có heartbeat trong khoảng thời gian 5 phút.
 
 ---
 

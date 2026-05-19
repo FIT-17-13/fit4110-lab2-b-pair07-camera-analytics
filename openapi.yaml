@@ -532,7 +532,7 @@ components:
           type: [string, 'null']
           format: uri
           description: URI của request gây lỗi.
-          example: /camera-events
+          example: https://api.campus.local/camera-events
         errors:
           type: array
           minItems: 0
@@ -570,7 +570,7 @@ components:
             title: Dữ liệu không hợp lệ
             status: 400
             detail: Payload không đúng JSON Schema
-            instance: /camera-events
+            instance: https://api.campus.local/camera-events
             errors:
               - field: eventType
                 code: ENUM_MISMATCH
@@ -587,7 +587,7 @@ components:
             title: Chưa xác thực
             status: 401
             detail: Thiếu Bearer token
-            instance: /camera-events
+            instance: https://api.campus.local/camera-events
             errors: []
 
     Forbidden:

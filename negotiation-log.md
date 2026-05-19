@@ -2,10 +2,10 @@
 
 - Cặp đàm phán: Pair 07 — Camera Stream ↔ Analytics
 - Product: B
-- Provider: Analytics (event consumer)
-- Consumer: Camera Stream (event producer)
+- Provider: Camera Stream (event producer)
+- Consumer: Analytics (event consumer)
 - Phiên: v1.0
-- Ngày: 18 tháng 5
+- Ngày: 19 tháng 5, 2026
 
 ---
 
@@ -50,7 +50,7 @@
 - Raised by: Consumer
 - Endpoint: camera.status.changed
 - Concern: Định nghĩa camera offline bao lâu thì emit status event.
-- Proposal: Emit `OFFLINE` nếu mất heartbeat quá TBD phút.
+- Proposal: Emit `OFFLINE` nếu mất heartbeat quá 5 phút.
 - Resolution: Modified
 - Rationale: Cần xác nhận với vận hành thực tế.
 - Impact: Sẽ chốt lại ngưỡng cụ thể trước khi ký cuối.
@@ -83,10 +83,10 @@
 
 # Chốt hợp đồng v1.0
 
-Provider sign-off: TBD  
-Consumer sign-off: TBD  
-Witness (GV/TA): TBD    
-Date: TBD              
+Provider sign-off: Vo Minh Quan  
+Consumer sign-off: Dai dien nhom Analytics  
+Witness (GV/TA): GV/TA  
+Date: 19 tháng 5, 2026  
 
 ---
 
